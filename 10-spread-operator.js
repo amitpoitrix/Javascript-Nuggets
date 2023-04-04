@@ -15,9 +15,12 @@ const bestFriend = 'arnold';
 const friends = [...boys, ...girls, bestFriend];
 console.log(friends);
 
-// Copy using spread operator
+
+// Copy using spread operator:
+
 // reference
 // const newFriends = friends;
+
 // copy
 const newFriends = [...friends];
 newFriends[0] = 'nancy';    // only change the 0th index value for newFriends[]
